@@ -1,0 +1,41 @@
+@media screen and (min-width:767px){
+    .analog-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .digital-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }    
+    .myprojects img{
+        height: 300px;
+    }
+    .card{
+        width: 330px;
+    }
+}
+@media screen and (min-width:1525px){
+    .analog-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .digital-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    p{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .title-text{
+        font-size: 20px;
+        width: 300px;
+    }
+    h1, h2{
+        font-size: 40px;
+        padding: 45px 0 50px 0;
+    }
+    h3{
+        font-size: 30px;
+    }
+    
+
+}
